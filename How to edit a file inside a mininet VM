@@ -1,0 +1,8 @@
+How to edit a file inside a mininet VM:
+===========================
+Go to the dir where the file that you need to edit located.
+To ensure the file exist just type: ls -lah #you will see the list of files/folders inside your dir
+To open file for edit use the command: vi <file_name>
+Go to the line that you want to update and type: "a"
+After you change the file type: "esc"
+Then type: :wq #w mean write the changes and q mean quiet PS: if you want to ignore the changes then type <q> only
